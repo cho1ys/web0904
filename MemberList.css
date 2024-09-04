@@ -1,0 +1,41 @@
+/* MemberList.css */
+
+.member-list {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.member-list-column {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.member-list-column h3 {
+    margin-bottom: 10px;
+}
+
+.member-list-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.member-list-column li {
+    margin-bottom: 5px;
+}
+
+.member-list-column button {
+    background-color: #ff4d4d;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.member-list-column button:hover {
+    background-color: #cc0000;
+}
